@@ -4,7 +4,7 @@ import { FaFacebook, FaRegCopyright, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div className="w-[100vw] font-Poppins text-white bg-black">
+        <div className="w-[100vw] font-raleway text-white bg-black">
             <div className="max-w-[1920px] mx-auto p-3 sm:p-0 flex flex-col justify-center">
                 <div className="mx-auto  text-logo-color text-[25px] not-italic font-semibold leading-normal capitalize h-full">
                     CONTACT US
@@ -27,9 +27,11 @@ const Contact = () => {
                             PHONE
                         </p>
                         <a href="tel:7908937796" className="cursor-pointer">
-                            +91 79089 37796 (Emmanuel)
+                            +91-7908937796 (Emmanuel Anthony Francis)
                         </a>
-                        {/* <a href="tel:6203730190" className='cursor-pointer'>+91-6203730190 (Amol Kshitij)</a> */}
+                        <a href="tel:6203730190" className="cursor-pointer">
+                            +91-6203730190 (Amol Kshitij)
+                        </a>
                     </div>
                     <div className="flex flex-col md:items-center xl:items-start">
                         <p className="text-[18px] lg:text-[22px] font-medium">

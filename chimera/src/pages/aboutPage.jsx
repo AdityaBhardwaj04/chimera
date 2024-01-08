@@ -178,9 +178,9 @@ function About() {
                         </p>
                     </div>
                 </div> */}
-                <div className="mt-10" />
+                <div className="mt-10 bg-[#66D076]" />
             </div>
-            <div className="  bg-transparent md:hidden p-6 flex flex-wrap mt-8 space-y-20">
+            <div className=" bg-[#66D076] md:hidden p-6 flex flex-wrap space-y-20">
                 <div className="block rounded-lg bg-white/10  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
                     <div
                         className="relative overflow-hidden bg-cover bg-no-repeat"
@@ -197,7 +197,7 @@ function About() {
                             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100" />
                         </a>
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 bg-gradient-custom">
                         <h5 className="mb-2 text-xl font-medium leading-tight text-white ">
                             ABOUT FOUNDER
                         </h5>
@@ -246,7 +246,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="block rounded-lg bg-white/10  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
+                <div className="block rounded-lg bg-white/10  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-custom">
                     <div
                         className="relative overflow-hidden bg-cover bg-no-repeat"
                         data-te-ripple-init=""

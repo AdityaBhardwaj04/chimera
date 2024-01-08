@@ -32,7 +32,7 @@ const CountdownTimer = ({ targetDate }) => {
         <div className="flex items-center justify-center h-auto">
             <div className="text-center max-w-[1162px] pt-[5%] pb-[5%]">
                 <div className="text-center max-w-[1162px]">
-                    <div className="text-2xl md:text-4xl font-semibold text-black font-raleway pb-2 pt-6">
+                    <div className="text-2xl md:text-4xl font-semibold text-black font-raleway pb-6 pt-6">
                         COUNTDOWN
                     </div>
                     <div className="flex flex-row pt-6 pb-6 lg:w-[650px] justify-center">
