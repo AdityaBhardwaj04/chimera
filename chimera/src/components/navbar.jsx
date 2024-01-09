@@ -135,8 +135,8 @@ const Navbar = () => {
                                 onClick={() => {
                                     changecolor("event");
                                 }}
-                                // to={"/event"}
-                                to={"/comingsoon"}
+                                to={"/event"}
+                                // to={"/comingsoon"}
                                 className={`md:font-semiblod ${
                                     event && "bg-[#66D076]"
                                 } px-3 py-1   md:rounded-xl hover:text-gray-300`}
@@ -147,8 +147,8 @@ const Navbar = () => {
                                 onClick={() => {
                                     changecolor("leads");
                                 }}
-                                // to={"/leads"}
-                                to={"/comingsoon"}
+                                to={"/lead"}
+                                // to={"/comingsoon"}
                                 className={`md:font-semiblod ${
                                     leads && "bg-[#66D076]"
                                 } px-3 py-1   md:rounded-xl hover:text-gray-300`}
@@ -159,7 +159,7 @@ const Navbar = () => {
                                 onClick={() => {
                                     changecolor("reg");
                                 }}
-                                to={"/comingsoon"}
+                                to={"/register"}
                                 className={`md:font-semiblod ${
                                     reg && "bg-[#66D076]"
                                 } px-3 py-1  md:rounded-xl hover:text-gray-300`}
@@ -355,8 +355,8 @@ const Navbar = () => {
                             </Link>
                             <Link
                                 onClick={() => setclick(false)}
-                                // to={"/event"}
-                                to={"/comingsoon"}
+                                to={"/event"}
+                                // to={"/comingsoon"}
                                 className="text-white hover:bg-green-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
                             >
                                 Events
@@ -371,7 +371,7 @@ const Navbar = () => {
                             </Link>
                             <Link
                                 onClick={() => setclick(false)}
-                                to={"/comingsoon"}
+                                to={"/register"}
                                 className="text-white hover:bg-green-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
                             >
                                 Register

@@ -26,11 +26,11 @@ const Contact = () => {
                         <p className="text-[18px] lg:text-[22px] font-medium">
                             PHONE
                         </p>
-                        <a href="tel:7908937796" className="cursor-pointer">
-                            +91-7908937796 (Emmanuel Anthony Francis)
-                        </a>
                         <a href="tel:6203730190" className="cursor-pointer">
                             +91-6203730190 (Amol Kshitij)
+                        </a>
+                        <a href="tel:7908937796" className="cursor-pointer">
+                            +91-7908937796 (Emmanuel Anthony Francis)
                         </a>
                     </div>
                     <div className="flex flex-col md:items-center xl:items-start">
