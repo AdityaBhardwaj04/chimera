@@ -4,7 +4,7 @@ import { FaFacebook, FaRegCopyright, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div className="w-[100vw] font-raleway text-white bg-black">
+        <div className="w-[100vw] font-raleway text-white bg-black pt-10">
             <div className="max-w-[1920px] mx-auto p-3 sm:p-0 flex flex-col justify-center">
                 <div className="mx-auto  text-logo-color text-[25px] not-italic font-semibold leading-normal capitalize h-full">
                     CONTACT US
