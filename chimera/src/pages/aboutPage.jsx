@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import founder from "../images/Founder.png";
-//import kiss from "./images/infrastructure.png";
-// import kiss from "../images/KISS-Foundation-Oct-2018.jpg";
+// import kiss from "./images/infrastructure.png";
+import kiss from "../images/KISS-Foundation-Oct-2018.jpg";
 import kiit from "../images/KIIT.png";
 
 function About() {
     return (
         <>
-            <div className="md:flex hidden text-white md:text-white sm:text-white flex-col space-y-20 md:px-4 max-w-screen  items-center justify-center bg-[#66D076]">
+            <div className="md:flex hidden text-white md:text-white sm:text-white flex-col space-y-20 md:px-4 max-w-screen  items-center justify-center bg-gradient-back">
                 <div className="flex relative max-w-screen  bg-white bg-grey-500  items-center  lg:h-[1233px] lg:w-[1233px] mt-10">
                     <div className="h-full mix-blend-multiply">
                         <img
@@ -17,7 +17,7 @@ function About() {
                             loading="lazy"
                         />
                     </div>
-                    <div className="absolute md:h-[50vh] md:w-[80vw] md:overflow-scroll  lg:h-[1156px] lg:w-[595px]  rounded-md   lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify">
+                    <div className="absolute md:h-[50vh] md:w-[80vw] md:overflow-scroll  lg:h-[1156px] lg:w-[595px]  rounded-md   lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify bg-gradient-custom">
                         <h1 className=" font_header">ABOUT FOUNDER</h1>
                         <p className=" font_body">
                             Prof. Achyuta Samanta is a social worker,
@@ -73,7 +73,7 @@ function About() {
                         loading="lazy"
                     />
 
-                    <div className="absolute md:block  hidden md:h-[50vh] md:w-[80vw] md:overflow-scroll lg:h-[1050px] lg:w-[595px] mg:px-10  rounded-md lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify">
+                    <div className="absolute md:block  hidden md:h-[50vh] md:w-[80vw] md:overflow-scroll lg:h-[1050px] lg:w-[595px] mg:px-10  rounded-md lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify bg-gradient-custom">
                         <h1 className="relative font_header">ABOUT KIIT</h1>
                         <p className="font_body relative">
                             Kalinga Institute of Industrial Technology (KIIT)
@@ -117,7 +117,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                {/* <div className="flex relative  rounded-xl bg-[rgba(186,186,186,0.34)]  items-center  lg:h-[1127px] lg:w-[1233px]">
+                <div className="flex relative  rounded-xl bg-[rgba(186,186,186,0.34)]  items-center  lg:h-[1127px] lg:w-[1233px]">
                     <img
                         src={kiss}
                         alt="kiss"
@@ -125,7 +125,7 @@ function About() {
                         loading="lazy"
                     />
 
-                    <div className="absolute md:block  hidden md:h-[50vh] md:w-[80vw] md:overflow-scroll lg:h-[1050px] lg:w-[595px] mg:px-10  rounded-md lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify">
+                    <div className="absolute md:block  hidden md:h-[50vh] md:w-[80vw] md:overflow-scroll lg:h-[1050px] lg:w-[595px] mg:px-10  rounded-md lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify bg-gradient-custom">
                         <h1 className="font_header">ABOUT KISS</h1>
                         <p className="font_body">
                             KISS was designated a Deemed University by the
@@ -177,10 +177,10 @@ function About() {
                             <br />
                         </p>
                     </div>
-                </div> */}
+                </div>
                 <div className="mt-10 bg-[#66D076]" />
             </div>
-            <div className=" bg-[#66D076] md:hidden p-6 flex flex-wrap space-y-20">
+            <div className=" bg-gradient-back bg-cover md:hidden p-6 flex flex-wrap space-y-20">
                 <div className="block rounded-lg bg-white/10  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
                     <div
                         className="relative overflow-hidden bg-cover bg-no-repeat"
@@ -311,8 +311,8 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="block rounded-lg bg-white/10 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
-                    {/* <div
+                <div className="block rounded-lg bg-white/10 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-custom">
+                    <div
                         className="relative overflow-hidden bg-cover bg-no-repeat"
                         data-te-ripple-init=""
                         data-te-ripple-color="light"
@@ -327,7 +327,7 @@ function About() {
                             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100" />
                         </a>
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 ">
                         <h5 className="mb-2 text-xl font-medium leading-tight  text-white ">
                             ABOUT KISS
                         </h5>
@@ -381,9 +381,8 @@ function About() {
                             <br />
                         </p>
                     </div>
-                </div> */}
                 </div>
-            </div>
+                </div>
         </>
     );
 }

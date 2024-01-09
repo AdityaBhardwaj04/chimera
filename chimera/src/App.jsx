@@ -33,17 +33,17 @@ export default function App() {
     <>
       <BrowserRouter>
         <ScrollItToTop/>
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<HomePage/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/event" element={<Event/>}/>
-          <Route path="/lead" element={<LeadPage/>}/>
-          <Route path="/form" element={<Form/>}/>
-          <Route path="/contact" element={<Empty/>}/>
-          <Route path="/comingsoon" element={<ComingSoon/>}/>
-        </Routes>
-        <Contact/>
+          <Navbar/>
+            <Routes>
+              <Route path="/" element={<HomePage/>}/>
+              <Route path="/about" element={<About/>}/>
+              <Route path="/event" element={<Event/>}/>
+              <Route path="/lead" element={<LeadPage/>}/>
+              <Route path="/form" element={<Form/>}/>
+              <Route path="/contact" element={<Empty/>}/>
+              <Route path="/comingsoon" element={<ComingSoon/>}/>
+            </Routes>
+          <Contact/>
       </BrowserRouter>
     </>
   )
