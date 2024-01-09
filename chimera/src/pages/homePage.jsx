@@ -5,6 +5,7 @@ import cursor from "../images/cursor1.png";
 import CountdownTimer from "../components/countdown";
 import Counter from "../components/counter";
 import watermark from "../images/watermarkBackGround.svg";
+// import hero from "../images/Desktop - 2.svg"
 
 const targetDate = new Date("2024-01-21T00:00:00");
 const HomePage = () => {
