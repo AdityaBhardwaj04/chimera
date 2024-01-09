@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 // import bg from "../images/Background_Image.svg"
-import { FaFacebook, FaRegCopyright, FaInstagram } from "react-icons/fa";
+import {
+    FaFacebook,
+    FaRegCopyright,
+    FaInstagram,
+    FaTwitter,
+} from "react-icons/fa";
 
 const Contact = () => {
     return (
@@ -62,7 +67,7 @@ const Contact = () => {
                             {/* <img src={facebook} alt='facebook'/> */}
                             <FaFacebook />
                             <a
-                                href="https://www.facebook.com/kritarth.kiit?mibextid=ZbWKwL"
+                                href="https://www.facebook.com/kimayamedical?mibextid=ZbWKwL"
                                 target="_blank"
                                 className="pl-[2px]"
                                 rel="noreferrer"
@@ -74,12 +79,23 @@ const Contact = () => {
                             {/* <img src={instagram} alt='instagram'/> */}
                             <FaInstagram />
                             <a
-                                href="https://instagram.com/kritarth.kiit?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+                                href="https://www.instagram.com/kimaya_kiit?igsh=MXNzMTNlYXYyenplYg=="
                                 target="_blank"
                                 className="pl-[2px]"
                                 rel="noreferrer"
                             >
                                 Instagram
+                            </a>
+                        </div>
+                        <div className="flex cursor-pointer">
+                            <FaTwitter />
+                            <a
+                                href="https://x.com/Chimera_kiit?t=MIrt0KSxLz-K15v_Z3xDog&s=09"
+                                target="_blank"
+                                className="pl-[2x]"
+                                rel="noreferrer"
+                            >
+                                Twitter
                             </a>
                         </div>
                     </div>
