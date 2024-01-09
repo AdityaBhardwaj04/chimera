@@ -4,11 +4,14 @@ import HomePage from "./pages/homePage";
 import Contact from "./components/contact";
 import About from "./pages/aboutPage";
 import ComingSoon from "./pages/comingSoon";
-import Event from "./pages/eventPage";
+// import Event from "./pages/eventPage";
 import LeadPage from "./pages/leadPage";
 import Form from "./pages/form";
 import Empty from "./components/empty";
 import ScrollItToTop from "./components/ScrollToTop";
+import Events from "./pages/events";
+import Event from "./pages/eventsPage";
+import { useState } from "react";
 
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {
@@ -29,22 +32,27 @@ if ("serviceWorker" in navigator) {
 }
 
 export default function App() {
-  return (
-    <>
-      <BrowserRouter>
-        <ScrollItToTop/>
-          <Navbar/>
-            <Routes>
-              <Route path="/" element={<HomePage/>}/>
-              <Route path="/about" element={<About/>}/>
-              <Route path="/event" element={<Event/>}/>
-              <Route path="/lead" element={<LeadPage/>}/>
-              <Route path="/form" element={<Form/>}/>
-              <Route path="/contact" element={<Empty/>}/>
-              <Route path="/comingsoon" element={<ComingSoon/>}/>
-            </Routes>
-          <Contact/>
-      </BrowserRouter>
-    </>
-  )
+  const [leads, setleads] = useState(0);
+    return (
+        <>
+            <BrowserRouter>
+                <ScrollItToTop />
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/about" element={<About />} />
+                    <Route
+                        path="/event"
+                        element={<Event setleads={setleads} />}
+                    />
+                    <Route path="/events" element={<Events leads={leads} />} />
+                    <Route path="/lead" element={<LeadPage />} />
+                    <Route path="/register" element={<Form />} />
+                    <Route path="/contact" element={<Empty />} />
+                    <Route path="/comingsoon" element={<ComingSoon />} />
+                </Routes>
+                <Contact />
+            </BrowserRouter>
+        </>
+    );
 }
