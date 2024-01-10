@@ -21,7 +21,7 @@ export default {
             backgroundImage: {
                 "gradient-custom":
                     "linear-gradient(52deg, #0CA1BF 2.03%, #04C2B5 98.57%)",
-                "custom-svg": "url('./src/images/flairs.png')",
+                "custom-svg": "url('./src/images/waves.svg')",
                 "gradient-back":
                     "linear-gradient(293deg, #66D076 12.11%, #0F93A5 88.6%)",
             },
