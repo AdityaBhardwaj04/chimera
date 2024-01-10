@@ -7,12 +7,12 @@ import linkedin from "../images/linkedin.svg";
 const Lead = () => {
     return (
         <section className="text-white font-Mulish bg-gradient-back">
-            <div className="w-full">
+            <div className="w-full max-w-[1920px]">
                 <h2 className="font-bold text-center text-3xl pt-9 pb-12">
                     EVENT HEADS
                 </h2>
             </div>
-            <div className="flex flex-col items-center">
+            {/* <div className="flex flex-col items-center">
                 <img
                     src={leadData[0].image}
                     alt={leadData[0].name}
@@ -52,9 +52,9 @@ const Lead = () => {
                         </Link>
                     </li>
                 </ul>
-            </div>
-            <div className="flex flex-wrap">
-                {leadData.slice(1, 4).map((item) => (
+            </div> */}
+            <div className="flex flex-wrap items-center justify-center">
+                {leadData.slice(0, 2).map((item) => (
                     <div
                         key={item.name}
                         className="w-full md:w-1/3 p-4 flex flex-col items-center"
@@ -105,8 +105,8 @@ const Lead = () => {
                     EVENT CO-HEADS
                 </h2>
             </div>
-            <div className="flex flex-wrap">
-                {leadData.slice(4, 8).map((item) => (
+            <div className="flex flex-wrap items-center justify-center">
+                {leadData.slice(2, 5).map((item) => (
                     <div
                         key={item.name}
                         className="w-full md:w-1/4 p-4 flex flex-col items-center"
@@ -159,13 +159,13 @@ const Lead = () => {
             </div>
             <div className="flex flex-col items-center">
                 <img
-                    src={leadData[8].image}
-                    alt={leadData[8].name}
+                    src={leadData[5].image}
+                    alt={leadData[5].name}
                     className="rounded-full w-48 h-48 sm:w-48 sm:h-48 md:w-64 md:h-64 object-cover"
                     loading="lazy"
                 />
-                <h3 className="mt-4 font-bold">{leadData[8].name}</h3>
-                <h4 className="mt-0 font-bold">{leadData[8].position}</h4>
+                <h3 className="mt-4 font-bold">{leadData[5].name}</h3>
+                <h4 className="mt-0 font-bold">{leadData[5].position}</h4>
                 <ul className="mt-2 flex">
                     <li className="pr-8">
                         <Link
@@ -183,7 +183,7 @@ const Lead = () => {
                     </li>
                     <li>
                         <Link
-                            to={leadData[8].linkedInLink}
+                            to={leadData[5].linkedInLink}
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -197,8 +197,8 @@ const Lead = () => {
                     </li>
                 </ul>
             </div>
-            <div className="flex flex-wrap">
-                {leadData.slice(9, 13).map((item) => (
+            <div className="flex flex-wrap items-center justify-center">
+                {leadData.slice(6, 9).map((item) => (
                     <div
                         key={item.name}
                         className="w-full md:w-1/4 p-4 flex flex-col items-center"
@@ -244,8 +244,8 @@ const Lead = () => {
                     </div>
                 ))}
             </div>
-            <div className="flex flex-wrap">
-                {leadData.slice(13, 17).map((item) => (
+            <div className="flex flex-wrap items-center justify-center">
+                {leadData.slice(9, 12).map((item) => (
                     <div
                         key={item.name}
                         className="w-full md:w-1/4 p-4 flex flex-col items-center"
@@ -291,24 +291,24 @@ const Lead = () => {
                     </div>
                 ))}
             </div>
-            <div className="w-full">
+            {/* <div className="w-full">
                 <h2 className="font-bold text-center text-3xl pt-5 pb-12">
                     WEB DEVELOPMENT TEAM
                 </h2>
             </div>
             <div className="flex flex-col items-center">
                 <img
-                    src={leadData[17].image}
-                    alt={leadData[17].name}
+                    src={leadData[9].image}
+                    alt={leadData[9].name}
                     className="rounded-full w-48 h-48 sm:w-48 sm:h-48 md:w-64 md:h-64 object-cover"
                     loading="lazy"
                 />
-                <h3 className="mt-4 font-bold">{leadData[17].name}</h3>
-                <h4 className="mt-0 font-bold">{leadData[17].position}</h4>
+                <h3 className="mt-4 font-bold">{leadData[9].name}</h3>
+                <h4 className="mt-0 font-bold">{leadData[9].position}</h4>
                 <ul className="mt-2 flex">
                     <li className="pr-8">
                         <Link
-                            to={leadData[17].igLink}
+                            to={leadData[9].igLink}
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -322,7 +322,7 @@ const Lead = () => {
                     </li>
                     <li>
                         <Link
-                            to={leadData[17].linkedInLink}
+                            to={leadData[9].linkedInLink}
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -379,7 +379,7 @@ const Lead = () => {
                         </ul>
                     </div>
                 ))}
-            </div>
+            </div> */}
 
             {/* <div className="fixed top-0 -z-20 right-0 w-screen h-screen back"></div> */}
             <div className="fixed top-0 -z-20 left-0 w-[100vw] h-[100vh]">

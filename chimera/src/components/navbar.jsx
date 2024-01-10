@@ -143,7 +143,7 @@ const Navbar = () => {
                             >
                                 Events
                             </Link>
-                            {/* <Link
+                            <Link
                                 onClick={() => {
                                     changecolor("leads");
                                 }}
@@ -154,7 +154,7 @@ const Navbar = () => {
                                 } px-3 py-1   md:rounded-xl hover:text-black/50`}
                             >
                                 Leads
-                            </Link> */}
+                            </Link>
                             <Link
                                 onClick={() => {
                                     changecolor("reg");
@@ -361,14 +361,14 @@ const Navbar = () => {
                             >
                                 Events
                             </Link>
-                            {/* <Link
+                            <Link
                                 onClick={() => setclick(false)}
-                                // to={"/leads"}
-                                to={"/comingsoon"}
+                                to={"/leads"}
+                                // to={"/comingsoon"}
                                 className="text-white hover:bg-green-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
                             >
                                 Leads
-                            </Link> */}
+                            </Link>
                             <Link
                                 onClick={() => setclick(false)}
                                 to={"/register"}

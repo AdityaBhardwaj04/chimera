@@ -3,6 +3,7 @@ import founder from "../images/Founder.png";
 // import kiss from "./images/infrastructure.png";
 import kiss from "../images/KISS-Foundation-Oct-2018.jpg";
 import kiit from "../images/KIIT.png";
+import kims from "../images/KIMS.jpg";
 
 function About() {
     return (
@@ -18,7 +19,9 @@ function About() {
                         />
                     </div>
                     <div className="absolute md:h-[50vh] md:w-[80vw] md:overflow-scroll  lg:h-[1156px] lg:w-[595px]  rounded-md   lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify bg-gradient-custom">
-                        <h1 className=" font_header">ABOUT FOUNDER</h1>
+                        <h1 className=" font_header text-2xl font-bold">
+                            ABOUT FOUNDER
+                        </h1>
                         <p className=" font_body">
                             Prof. Achyuta Samanta is a social worker,
                             philantrophist and educationalist. He established
@@ -74,7 +77,9 @@ function About() {
                     />
 
                     <div className="absolute md:block  hidden md:h-[50vh] md:w-[80vw] md:overflow-scroll lg:h-[1050px] lg:w-[595px] mg:px-10  rounded-md lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify bg-gradient-custom">
-                        <h1 className="relative font_header">ABOUT KIIT</h1>
+                        <h1 className="relative font_header text-2xl font-bold">
+                            ABOUT KIIT
+                        </h1>
                         <p className="font_body relative">
                             Kalinga Institute of Industrial Technology (KIIT)
                             Bhubaneswar is a deemed university in Kalinga,
@@ -117,17 +122,20 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="flex relative  rounded-xl bg-[rgba(186,186,186,0.34)]  items-center  lg:h-[1127px] lg:w-[1233px]">
+                <div className="flex  md:flex-row  relative  rounded-md bg-[rgba(186,186,186,0.34)]  items-center  lg:h-[1127px] lg:w-[1233px]">
                     <img
+                        height={1127}
                         src={kiss}
                         alt="kiss"
-                        className="shadow-inner  md:h-full md:w-full object-cover "
+                        className="shadow-inner object-cover h-full w-full"
                         loading="lazy"
                     />
 
                     <div className="absolute md:block  hidden md:h-[50vh] md:w-[80vw] md:overflow-scroll lg:h-[1050px] lg:w-[595px] mg:px-10  rounded-md lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify bg-gradient-custom">
-                        <h1 className="font_header">ABOUT KISS</h1>
-                        <p className="font_body">
+                        <h1 className="relative font_header text-2xl font-bold">
+                            ABOUT KISS
+                        </h1>
+                        <p className="font_body relative">
                             KISS was designated a Deemed University by the
                             Ministry of Human Resource Development of the
                             Government of India on August 25, 2017 (U/S 3 of the
@@ -178,6 +186,115 @@ function About() {
                         </p>
                     </div>
                 </div>
+                <div className="flex relative  rounded-xl bg-[rgba(186,186,186,0.34)]  items-center  lg:h-[1127px] lg:w-[1233px]">
+                    <img
+                        src={kims}
+                        alt="kims"
+                        className="shadow-inner  md:h-full md:w-full object-cover "
+                        loading="lazy"
+                    />
+
+                    <div className="absolute md:block  hidden md:h-[50vh] md:w-[80vw] md:overflow-scroll lg:h-[1050px] lg:w-[595px] mg:px-10  rounded-md lg:bg-[rgba(127,127,127,0.45)] md:bg-black/20 lg:backdrop-blur-lg md:bottom-0 md:right-0  lg:top-10 lg:right-10 md:p-6 lg:p-16 text-justify bg-gradient-custom">
+                        <h1 className="font_header text-2xl font-bold">
+                            ABOUT KIMS
+                        </h1>
+                        <p className="font_body">
+                            ABOUT KIMS The Kalinga Institute of Medical Sciences
+                            (KIMS) is a constituent unit of KIIT Deemed to be
+                            University. The institute has redefined the
+                            healthcare services in Odisha and in neighbouring
+                            states, anchored on a genuine desire to promote a
+                            healthy society and provide advanced medical care.
+                            The 2600 bedded medical college and hospital made a
+                            humble beginning in 2007, and since then it has
+                            developed a distinct identity for itself –
+                            delivering quality treatment in its state of
+                            facilities at an affordable cost. The Medical
+                            College has 20 broad speciality departments and 12
+                            super speciality departments, each of which is well
+                            managed by acclaimed specialists and doctors who
+                            have made a name for themselves in their respective
+                            fields. KIMS is the vision of KIIT and KISS founder
+                            Prof. Dr. Achyuta Samanta to offer quality
+                            healthcare that is accessible to all. The premier
+                            medical facility has grown from strength to strength
+                            over the years because of the unwavering support of
+                            doctors and countless staff passionate about the
+                            cause. KIMS seeks to be the foremost healthcare
+                            provider of standard apex focusing on producing
+                            Indian medical graduates through excellence in
+                            medical education, providing ethical and
+                            evidence-based treatment and forge into the field of
+                            medical research and innovation targeting national
+                            needs.
+                            <br /> • Medical Education Creating IMG (Indian
+                            Medical Graduates) who will be wisdom-filled,
+                            confident and have a human face. The graduates will
+                            be sensitive to the needs of the community,
+                            compassionate healthcare givers and lifelong
+                            learners. They would engage themselves in honing
+                            specific skills in their respective departments as
+                            post-graduates and super-speciality students.
+                            <br /> • Clinical Care To provide evidence-based and
+                            affordable healthcare services to people in an
+                            ethical manner.
+                            <br /> • Research and Innovation Collaborative
+                            research and innovation that is targeted for
+                            alleviating the common problems of the nation as
+                            well as reducing suffering and the cost of
+                            healthcare. Ranking <br />• Ranked among the top 26
+                            best medical colleges in the country in 2023 by the
+                            Union-Government-instituted National Institute of
+                            Ranking Framework (NIRF). <br />• Adjudged the 5th
+                            Best Multi-Speciality Medical Facility in Eastern
+                            India for 2022 by English periodical Outlook
+                            magazine.
+                            <br /> • India Today Health Giri Award in 2021 as
+                            the Best private medical institution of Odisha.
+                            <br /> • India Today Health Giri Award 2021 as one
+                            of the top private hospitals in the country to
+                            combat COVID-19. <br />• Bagged the ‘Most Innovative
+                            Medical College & Hospital’ award in 2020 at the
+                            Asia Healthcare Summit and Awards Ceremony in New
+                            Delhi.
+                            <br /> • International Food Security Summit (IFSS) –
+                            Award in 2019 for providing the best health services
+                            in New Delhi.
+                            <br /> • Most Trusted Medical College & Hospital in
+                            2018 by World Health Care Achievers.
+                            <br /> • Selected as an Adverse Drug Reaction
+                            Monitoring Centre by Govt of India in 2015.
+                            <br />
+                            •We have a special consultative status with the
+                            Economic and Social Council of the United Nations
+                            (ECOSOC), the highest degree of UN accreditation for
+                            a non-governmental organization, and Guide star
+                            India's champion degree-Platinum Certification for
+                            NGO Transparency (2016) since 2015.
+                            <br />
+                            •In the prestigious list of 189 top NGOs worldwide
+                            and the top 10 best NGOs in India published in 2019
+                            by NGO Advisor, a Geneva-based independent media
+                            organization.
+                            <br />
+                            •Programs and initiatives that are linked to and
+                            actively working to achieve the Sustainable
+                            Development Goals (SDGs) of the United Nations.
+                            <br />
+                            •Collaborations with a wide range of international
+                            organizations, including the US Federal Government,
+                            UNESCO, UNICEF, and UNEPA.
+                            <br />
+                            •Visited and lauded by dignitaries from 70 nations,
+                            including ambassadors and chiefs of state.
+                            <br />
+                            •15 Nobel Prize winners have resided at the
+                            Institute.
+                            <br />
+                        </p>
+                    </div>
+                </div>
+
                 <div className="mt-10 bg-[#66D076]" />
             </div>
             <div className=" bg-gradient-back bg-cover md:hidden p-6 flex flex-wrap space-y-20">
@@ -311,7 +428,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="block rounded-lg bg-white/10 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-custom">
+                <div className="block rounded-lg bg-white/10  shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-custom">
                     <div
                         className="relative overflow-hidden bg-cover bg-no-repeat"
                         data-te-ripple-init=""
@@ -327,8 +444,8 @@ function About() {
                             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100" />
                         </a>
                     </div>
-                    <div className="p-4 ">
-                        <h5 className="mb-2 text-xl font-medium leading-tight  text-white ">
+                    <div className="p-4">
+                        <h5 className="mb-2 text-xl font-medium leading-tight text-white ">
                             ABOUT KISS
                         </h5>
                         <p className="mb-4 h-40 text-justify overflow-x-scroll text-base text-white ">
@@ -378,11 +495,125 @@ function About() {
                             <br />
                             •15 Nobel Prize winners have resided at the
                             Institute.
-                            <br />
                         </p>
                     </div>
                 </div>
+                <div className="block rounded-lg bg-white/10 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-gradient-custom">
+                    <div
+                        className="relative overflow-hidden bg-cover bg-no-repeat"
+                        data-te-ripple-init=""
+                        data-te-ripple-color="light"
+                    >
+                        <img
+                            className="rounded-t-lg bg-slate-800/20 "
+                            src={kims}
+                            alt=""
+                            loading="lazy"
+                        />
+                        <a href="#!">
+                            <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100" />
+                        </a>
+                    </div>
+                    <div className="p-4 ">
+                        <h5 className="mb-2 text-xl font-medium leading-tight  text-white ">
+                            ABOUT KIMS
+                        </h5>
+                        <p className="mb-4 h-40 text-justify overflow-x-scroll text-base text-white ">
+                            ABOUT KIMS The Kalinga Institute of Medical Sciences
+                            (KIMS) is a constituent unit of KIIT Deemed to be
+                            University. The institute has redefined the
+                            healthcare services in Odisha and in neighbouring
+                            states, anchored on a genuine desire to promote a
+                            healthy society and provide advanced medical care.
+                            The 2600 bedded medical college and hospital made a
+                            humble beginning in 2007, and since then it has
+                            developed a distinct identity for itself –
+                            delivering quality treatment in its state of
+                            facilities at an affordable cost. The Medical
+                            College has 20 broad speciality departments and 12
+                            super speciality departments, each of which is well
+                            managed by acclaimed specialists and doctors who
+                            have made a name for themselves in their respective
+                            fields. KIMS is the vision of KIIT and KISS founder
+                            Prof. Dr. Achyuta Samanta to offer quality
+                            healthcare that is accessible to all. The premier
+                            medical facility has grown from strength to strength
+                            over the years because of the unwavering support of
+                            doctors and countless staff passionate about the
+                            cause. KIMS seeks to be the foremost healthcare
+                            provider of standard apex focusing on producing
+                            Indian medical graduates through excellence in
+                            medical education, providing ethical and
+                            evidence-based treatment and forge into the field of
+                            medical research and innovation targeting national
+                            needs.
+                            <br /> • Medical Education Creating IMG (Indian
+                            Medical Graduates) who will be wisdom-filled,
+                            confident and have a human face. The graduates will
+                            be sensitive to the needs of the community,
+                            compassionate healthcare givers and lifelong
+                            learners. They would engage themselves in honing
+                            specific skills in their respective departments as
+                            post-graduates and super-speciality students.
+                            <br /> • Clinical Care To provide evidence-based and
+                            affordable healthcare services to people in an
+                            ethical manner.
+                            <br /> • Research and Innovation Collaborative
+                            research and innovation that is targeted for
+                            alleviating the common problems of the nation as
+                            well as reducing suffering and the cost of
+                            healthcare. Ranking <br />• Ranked among the top 26
+                            best medical colleges in the country in 2023 by the
+                            Union-Government-instituted National Institute of
+                            Ranking Framework (NIRF). <br />• Adjudged the 5th
+                            Best Multi-Speciality Medical Facility in Eastern
+                            India for 2022 by English periodical Outlook
+                            magazine.
+                            <br /> • India Today Health Giri Award in 2021 as
+                            the Best private medical institution of Odisha.
+                            <br /> • India Today Health Giri Award 2021 as one
+                            of the top private hospitals in the country to
+                            combat COVID-19. <br />• Bagged the ‘Most Innovative
+                            Medical College & Hospital’ award in 2020 at the
+                            Asia Healthcare Summit and Awards Ceremony in New
+                            Delhi.
+                            <br /> • International Food Security Summit (IFSS) –
+                            Award in 2019 for providing the best health services
+                            in New Delhi.
+                            <br /> • Most Trusted Medical College & Hospital in
+                            2018 by World Health Care Achievers.
+                            <br /> • Selected as an Adverse Drug Reaction
+                            Monitoring Centre by Govt of India in 2015.
+                            <br />
+                            •We have a special consultative status with the
+                            Economic and Social Council of the United Nations
+                            (ECOSOC), the highest degree of UN accreditation for
+                            a non-governmental organization, and Guide star
+                            India's champion degree-Platinum Certification for
+                            NGO Transparency (2016) since 2015.
+                            <br />
+                            •In the prestigious list of 189 top NGOs worldwide
+                            and the top 10 best NGOs in India published in 2019
+                            by NGO Advisor, a Geneva-based independent media
+                            organization.
+                            <br />
+                            •Programs and initiatives that are linked to and
+                            actively working to achieve the Sustainable
+                            Development Goals (SDGs) of the United Nations.
+                            <br />
+                            •Collaborations with a wide range of international
+                            organizations, including the US Federal Government,
+                            UNESCO, UNICEF, and UNEPA.
+                            <br />
+                            •Visited and lauded by dignitaries from 70 nations,
+                            including ambassadors and chiefs of state.
+                            <br />
+                            •15 Nobel Prize winners have resided at the
+                            Institute.
+                        </p>
+                    </div>
                 </div>
+            </div>
         </>
     );
 }

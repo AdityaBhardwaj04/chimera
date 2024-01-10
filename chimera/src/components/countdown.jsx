@@ -8,6 +8,10 @@ const CountdownTimer = ({ targetDate }) => {
         const targetTime = new Date(targetDate).getTime();
         const timeDiff = targetTime - now;
 
+        if (timeDiff < 0) {
+            return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+        }
+
         const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
         const hours = Math.floor(
             (timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
@@ -32,13 +36,13 @@ const CountdownTimer = ({ targetDate }) => {
         <div className="flex items-center justify-center h-auto">
             <div className="text-center max-w-[1162px] pt-[5%] pb-[5%]">
                 <div className="text-center max-w-[1162px]">
-                    <div className="text-2xl md:text-4xl font-semibold text-black font-raleway pb-6 pt-6">
+                    <div className="text-2xl md:text-6xl font-semibold text-black font-raleway pb-6 pt-6">
                         COUNTDOWN
                     </div>
                     <div className="flex flex-row pt-6 pb-6 lg:w-[650px] justify-center">
                         <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/4 mx-3 py-5 rounded-lg">
                             <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-white">
-                                {timeRemaining.days}
+                                {timeRemaining.days.toString().padStart(2, "0")}
                             </div>
                             <div className="font-semibold text-lg md:text-3xl bg-gradient bg-clip-text text-white px-1">
                                 Days
@@ -50,7 +54,9 @@ const CountdownTimer = ({ targetDate }) => {
                         </div>
                         <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/4 mx-3 py-5 rounded-lg">
                             <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-white">
-                                {timeRemaining.hours}
+                                {timeRemaining.hours
+                                    .toString()
+                                    .padStart(2, "0")}
                             </div>
                             <div className="font-semibold text-lg md:text-3xl bg-gradient bg-clip-text text-white px-1">
                                 Hours
@@ -62,7 +68,9 @@ const CountdownTimer = ({ targetDate }) => {
                         </div>
                         <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/4 mx-3 py-5 rounded-lg">
                             <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-white">
-                                {timeRemaining.minutes}
+                                {timeRemaining.minutes
+                                    .toString()
+                                    .padStart(2, "0")}
                             </div>
                             <div className="font-semibold text-lg md:text-3xl bg-gradient bg-clip-text text-white px-1">
                                 Minutes
@@ -74,7 +82,9 @@ const CountdownTimer = ({ targetDate }) => {
                         </div>
                         <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/4 mx-3 py-5 rounded-lg">
                             <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-white">
-                                {timeRemaining.seconds}
+                                {timeRemaining.seconds
+                                    .toString()
+                                    .padStart(2, "0")}
                             </div>
                             <div className="font-semibold text-lg md:text-3xl bg-gradient bg-clip-text text-white ">
                                 Seconds

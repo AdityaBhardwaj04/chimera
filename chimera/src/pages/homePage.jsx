@@ -33,11 +33,11 @@ const HomePage = () => {
                                         />
                                     </div>
                                     <div className="">
-                                        <h1 className="justify-center text-xl md:text-2xl lg:text-4xl text-logo-color leading-3 font-normal font-AllRounder text-[#2A404A] -mt-10">
+                                        <h1 className="justify-center text-xl font-bold md:text-2xl lg:text-4xl text-logo-color leading-3 font-AllRounder text-[#2A404A] -mt-10">
                                             20-21 Jan, 2024
                                         </h1>
                                     </div>
-                                    <Link to={"/commingsoon"}>
+                                    <Link to={"/register"}>
                                         <button className="bg-white shadow-custom backdrop-blur-custom cursor-pointer text-[20px] text-[#66D076] font-medium py-2 px-4 mt-[0px] md:mt-[40px] rounded-xl inline-flex items-center">
                                             <span className="font-Rubik">
                                                 Register
