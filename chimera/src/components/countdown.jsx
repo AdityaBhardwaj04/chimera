@@ -36,7 +36,7 @@ const CountdownTimer = ({ targetDate }) => {
                         COUNTDOWN
                     </div>
                     <div className="flex flex-row pt-6 pb-6 lg:w-[650px] justify-center">
-                        <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/5 mx-3">
+                        <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/4 mx-3 py-5 rounded-lg">
                             <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-white">
                                 {timeRemaining.days}
                             </div>
@@ -45,10 +45,10 @@ const CountdownTimer = ({ targetDate }) => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center">
-                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-white mx-auto my-auto"></div>
-                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-white mx-auto my-auto"></div>
+                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-gradient-custom mx-auto my-auto"></div>
+                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-gradient-custom mx-auto my-auto"></div>
                         </div>
-                        <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/5 mx-3">
+                        <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/4 mx-3 py-5 rounded-lg">
                             <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-white">
                                 {timeRemaining.hours}
                             </div>
@@ -57,10 +57,10 @@ const CountdownTimer = ({ targetDate }) => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center">
-                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-white mx-auto my-auto"></div>
-                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-white mx-auto my-auto"></div>
+                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-gradient-custom mx-auto my-auto"></div>
+                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-gradient-custom mx-auto my-auto"></div>
                         </div>
-                        <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/5 mx-3">
+                        <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/4 mx-3 py-5 rounded-lg">
                             <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-white">
                                 {timeRemaining.minutes}
                             </div>
@@ -69,10 +69,10 @@ const CountdownTimer = ({ targetDate }) => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center">
-                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-white mx-auto my-auto"></div>
-                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-white mx-auto my-auto"></div>
+                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-gradient-custom mx-auto my-auto"></div>
+                            <div className="rounded-full h-[10px] w-[10px] md:h-[15px] md:w-[15px] bg-gradient-custom mx-auto my-auto"></div>
                         </div>
-                        <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/5 mx-3 ">
+                        <div className="text-xl bg-gradient-custom w-full md:w-1/4 lg:w-1/4 mx-3 py-5 rounded-lg">
                             <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-white">
                                 {timeRemaining.seconds}
                             </div>

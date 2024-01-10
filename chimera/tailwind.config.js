@@ -3,6 +3,16 @@ export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         extend: {
+            animation: {
+                "zoom-in-out": "zoomInOut 6s infinite",
+            },
+            keyframes: {
+                zoomInOut: {
+                    "0%": { transform: "scale(1)" },
+                    "50%": { transform: "scale(1.1)" },
+                    "100%": { transform: "scale(1)" },
+                },
+            },
             fontFamily: {
                 AllRounder: ["AllRounder"],
                 poppins: ["Poppins", "sans-serif"],
@@ -18,13 +28,16 @@ export default {
                 "gradient-start": "#0CA1BF",
                 "gradient-end": "#04C2B5",
             },
-            backgroundImage: {
+            backgroundImage: (theme) => ({
                 "gradient-custom":
                     "linear-gradient(52deg, #0CA1BF 2.03%, #04C2B5 98.57%)",
-                "custom-svg": "url('./src/images/waves.svg')",
                 "gradient-back":
                     "linear-gradient(293deg, #66D076 12.11%, #0F93A5 88.6%)",
-            },
+                "mobile-flair": "url('./src/images/heroMobile.svg')",
+                "desktop-flair": "url('./src/images/hero.svg')",
+                "mobile-lion" : "url('./src/images/logoMobile.svg')",
+                "desktop-lion" : "url('./src/images/prizePoolWatermark.svg')",
+            }),
         },
     },
     plugins: [],

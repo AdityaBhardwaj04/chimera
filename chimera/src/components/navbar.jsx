@@ -70,10 +70,10 @@ const Navbar = () => {
     return (
         <>
             <nav
-                className={`${navColor} hidden md:block border-gray-200 sticky top-0 z-50`}
+                className={`${navColor} hidden md:block border-black/50 sticky top-0 z-50`}
             >
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2 z-50">
-                    <div className="flex title-font font-base items-center text-gray-900 mb-4 md:mb-0">
+                    <div className="flex title-font font-base items-center text-black/50 mb-4 md:mb-0">
                         <Link
                             to={"/"}
                             className=" "
@@ -127,7 +127,7 @@ const Navbar = () => {
                                 to={"/about"}
                                 className={`md:font-semiblod ${
                                     about && "bg-[#66D076]"
-                                } px-3 py-1   md:rounded-xl hover:text-gray-300`}
+                                } px-3 py-1   md:rounded-xl hover:text-black/50`}
                             >
                                 About
                             </Link>
@@ -139,7 +139,7 @@ const Navbar = () => {
                                 // to={"/comingsoon"}
                                 className={`md:font-semiblod ${
                                     event && "bg-[#66D076]"
-                                } px-3 py-1   md:rounded-xl hover:text-gray-300`}
+                                } px-3 py-1   md:rounded-xl hover:text-black/50`}
                             >
                                 Events
                             </Link>
@@ -151,7 +151,7 @@ const Navbar = () => {
                                 // to={"/comingsoon"}
                                 className={`md:font-semiblod ${
                                     leads && "bg-[#66D076]"
-                                } px-3 py-1   md:rounded-xl hover:text-gray-300`}
+                                } px-3 py-1   md:rounded-xl hover:text-black/50`}
                             >
                                 Leads
                             </Link> */}
@@ -162,7 +162,7 @@ const Navbar = () => {
                                 to={"/register"}
                                 className={`md:font-semiblod ${
                                     reg && "bg-[#66D076]"
-                                } px-3 py-1  md:rounded-xl hover:text-gray-300`}
+                                } px-3 py-1  md:rounded-xl hover:text-black/50`}
                             >
                                 Register
                             </Link>
@@ -173,7 +173,7 @@ const Navbar = () => {
                                 to={"/contacts"}
                                 className={`md:font-semiblod ${
                                     contact && "bg-[#66D076]"
-                                } px-3 py-1   md:rounded-xl hover:text-gray-300`}
+                                } px-3 py-1   md:rounded-xl hover:text-black/50`}
                             >
                                 Contact
                             </Link>
@@ -344,7 +344,7 @@ const Navbar = () => {
                         id="mobile-menu"
                     >
                         <div className="space-y-1 px-2 pb-3 pt-2">
-                            {/* Current: "bg-gray-900 text-white", Default: "text-white hover:bg-gray-700 hover:text-white" */}
+                            {/* Current: "bg-black/50 text-white", Default: "text-white hover:bg-black/50 hover:text-white" */}
                             <Link
                                 onClick={() => setclick(false)}
                                 to={"/about"}

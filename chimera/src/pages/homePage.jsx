@@ -4,14 +4,14 @@ import chimeraLogo from "../images/chimera_icon.svg";
 import cursor from "../images/cursor1.png";
 import CountdownTimer from "../components/countdown";
 import Counter from "../components/counter";
-import watermark from "../images/watermarkBackGround.svg";
-import flairs from "../images/D";
+import watermark from "../images/prizePoolWatermark.svg";
+// import flairs from "../images/hero.svg";
 
 const targetDate = new Date("2024-01-21T00:00:00");
 const HomePage = () => {
     return (
         <div className="relative pb-10">
-            <div
+            {/* <div
                 className="w-[100vw] py-5 bg-[#66D076]"
                 style={{
                     backgroundImage: `url(${flairs})`,
@@ -19,13 +19,14 @@ const HomePage = () => {
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                 }}
-            >
+            > */}
+            <div className="w-[100vw] py-5 bg-[#66D076] bg-mobile-flair md:bg-desktop-flair bg-bottom bg-cover bg-no-repeat">
                 <div className="">
                     <div className="max-w-[1920px] min-h-[80vh] md:h-[90vh] p-3 xl:p-0 flex flex-col items-center justify-center mx-auto">
                         <div className="relative xl:p-0 w-full 2xl:w-[1422px] h-[480px] mx-auto bg-transparent md:mt-[40px]">
                             <div className="absolute flex md:flex-row flex-col justify-between gap-4 items-center top-0 bottom-0 w-full h-full">
                                 <div className="md:self-start w-[230px] md:w-[40%] lg:w-[50%] h-full flex flex-col justify-center gap-8 md:gap-8 items-center">
-                                    <div className="relative lg:w-[70%] mt-2 md:mt-0 ml-[0px] md:ml-[15px] zoom-in-out-box">
+                                    <div className="relative lg:w-[70%] mt-2 md:mt-0 ml-[0px] md:ml-[15px] animate-zoom-in-out">
                                         <img
                                             src={chimeraLogo}
                                             alt=""
@@ -82,22 +83,23 @@ const HomePage = () => {
             </div>
             <div className="w-[100vw] bg-[#E2F7E6] h-auto">
                 <CountdownTimer targetDate={targetDate} />
-                <div
+                {/* <div
                     className="w-[100vw] py-5 bg-[#66D076]"
                     style={{
                         backgroundImage: `url(${watermark})`,
                         backgroundPosition: "right bottom",
-                        backgroundSize: "contain",
+                        backgroundSize: "cover",
                         backgroundRepeat: "no-repeat",
                     }}
-                >
+                > */}
+                <div className="w-[100vw] py-5 bg-[#66D076] bg-mobile-lion md:bg-desktop-lion bg-bottom bg-cover bg-no-repeat">
                     <div className="max-w-[1162px] p-3 xl:p-0 mx-auto">
                         <div className="text-white font-Poppins text-xl md:text-3xl lg:text-4xl font-semibold text-center mt-11 mb-11">
                             Prize Pool
                         </div>
                         <div className="flex md:flex-row flex-col-reverse justify-between gap-4 items-center w-full h-full ">
                             <div className="w-full md:w-[60%] 2xl:w-[60%] flex items-center justify-center h-full">
-                                <div className="md:ml-8 mb-1  md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F]">
+                                <div className="md:ml-8 mb-1  md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F] bg-gradient-custom">
                                     <div className="text-white text-justify font-semibold text-sm sm:text-base xl:text-lg md:leading-[27px] tracking-wide md:tracking-widest font-inter">
                                         In an era dominated by the swift flow of
                                         information across various media
