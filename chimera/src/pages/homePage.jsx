@@ -5,14 +5,22 @@ import cursor from "../images/cursor1.png";
 import CountdownTimer from "../components/countdown";
 import Counter from "../components/counter";
 import watermark from "../images/watermarkBackGround.svg";
-// import hero from "../images/Desktop - 2.svg"
+import flairs from "../images/waves.svg";
 
 const targetDate = new Date("2024-01-21T00:00:00");
 const HomePage = () => {
     return (
         <div className="relative pb-10">
-            <div className="w-[100vw] py-5 bg-[#66D076]">
-                <div className="bg-custom-svg bg-no-repeat bg-cover">
+            <div
+                className="w-[100vw] py-5 bg-[#66D076]"
+                style={{
+                    backgroundImage: `url(${flairs})`,
+                    backgroundPosition: "bottom",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                }}
+            >
+                <div className="">
                     <div className="max-w-[1920px] min-h-[80vh] md:h-[90vh] p-3 xl:p-0 flex flex-col items-center justify-center mx-auto">
                         <div className="relative xl:p-0 w-full 2xl:w-[1422px] h-[480px] mx-auto bg-transparent md:mt-[40px]">
                             <div className="absolute flex md:flex-row flex-col justify-between gap-4 items-center top-0 bottom-0 w-full h-full">
@@ -45,23 +53,25 @@ const HomePage = () => {
                                 <div className="w-full md:w-[60%] lg:w-[50%] flex items-center text-justify justify-center h-full ">
                                     <div className="h-full lg:translate-y-[-30px] md:mr-8 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-gradient-custom shadow-custom backdrop-blur-custom border-solid border-[0.795px] border-[#7F7F7F] ">
                                         <div className="text-white font-semibold text-xs sm:text-sm xl:text-lg md:leading-[27px] tracking-wide md:tracking-widest font-Inter var">
-                                            CHIMERA, aims to provide a platform for
-                                            the congregation of the entire medical
-                                            fraternity of eastern India along with
-                                            other major Universities embracing the
-                                            whole country under one roof. It is
-                                            beyond the dimensions of just an event
-                                            it is a stage where idea meets reality.
-                                            The event theme "Dissecting Truth from
+                                            CHIMERA, aims to provide a platform
+                                            for the congregation of the entire
+                                            medical fraternity of eastern India
+                                            along with other major Universities
+                                            embracing the whole country under
+                                            one roof. It is beyond the
+                                            dimensions of just an event it is a
+                                            stage where idea meets reality. The
+                                            event theme "Dissecting Truth from
                                             Rumor" encompasses a profound
-                                            exploration into the intricate landscape
-                                            of information dissemination and its
-                                            impact on society. In an era dominated
-                                            by the swift flow of information across
-                                            various media platforms, the veracity of
-                                            facts often gets tangled within a web of
-                                            rumors, misinformation, and
-                                            disinformation.
+                                            exploration into the intricate
+                                            landscape of information
+                                            dissemination and its impact on
+                                            society. In an era dominated by the
+                                            swift flow of information across
+                                            various media platforms, the
+                                            veracity of facts often gets tangled
+                                            within a web of rumors,
+                                            misinformation, and disinformation.
                                         </div>
                                     </div>
                                 </div>
