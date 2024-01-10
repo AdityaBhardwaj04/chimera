@@ -5,13 +5,13 @@ import cursor from "../images/cursor1.png";
 import CountdownTimer from "../components/countdown";
 import Counter from "../components/counter";
 import watermark from "../images/prizePoolWatermark.svg";
-// import flairs from "../images/hero.svg";
+import flairs from "../images/hero.svg";
 
 const targetDate = new Date("2024-01-21T00:00:00");
 const HomePage = () => {
     return (
         <div className="relative pb-10">
-            {/* <div
+            <div
                 className="w-[100vw] py-5 bg-[#66D076]"
                 style={{
                     backgroundImage: `url(${flairs})`,
@@ -19,8 +19,7 @@ const HomePage = () => {
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                 }}
-            > */}
-            <div className="w-[100vw] py-5 bg-[#66D076] bg-mobile-flair md:bg-desktop-flair bg-bottom bg-cover bg-no-repeat">
+            >
                 <div className="">
                     <div className="max-w-[1920px] min-h-[80vh] md:h-[90vh] p-3 xl:p-0 flex flex-col items-center justify-center mx-auto">
                         <div className="relative xl:p-0 w-full 2xl:w-[1422px] h-[480px] mx-auto bg-transparent md:mt-[40px]">
@@ -83,7 +82,7 @@ const HomePage = () => {
             </div>
             <div className="w-[100vw] bg-[#E2F7E6] h-auto">
                 <CountdownTimer targetDate={targetDate} />
-                {/* <div
+                <div
                     className="w-[100vw] py-5 bg-[#66D076]"
                     style={{
                         backgroundImage: `url(${watermark})`,
@@ -91,8 +90,7 @@ const HomePage = () => {
                         backgroundSize: "cover",
                         backgroundRepeat: "no-repeat",
                     }}
-                > */}
-                <div className="w-[100vw] py-5 bg-[#66D076] bg-mobile-lion md:bg-desktop-lion bg-bottom bg-cover bg-no-repeat">
+                >
                     <div className="max-w-[1162px] p-3 xl:p-0 mx-auto">
                         <div className="text-white font-Poppins text-xl md:text-3xl lg:text-4xl font-semibold text-center mt-11 mb-11">
                             Prize Pool

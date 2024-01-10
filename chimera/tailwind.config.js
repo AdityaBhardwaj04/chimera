@@ -34,9 +34,9 @@ export default {
                 "gradient-back":
                     "linear-gradient(293deg, #66D076 12.11%, #0F93A5 88.6%)",
                 "mobile-flair": "url('./src/images/heroMobile.svg')",
-                "desktop-flair": "url('./src/images/hero.svg')",
-                "mobile-lion" : "url('./src/images/logoMobile.svg')",
-                "desktop-lion" : "url('./src/images/prizePoolWatermark.svg')",
+                "desktop-flair": "url('chimera/src/images/hero.svg')",
+                "mobile-lion": "url('./src/images/logoMobile.svg')",
+                "desktop-lion": "url('./src/images/prizePoolWatermark.svg')",
             }),
         },
     },
