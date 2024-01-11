@@ -46,6 +46,7 @@ export default function App() {
                         element={<Event setleads={setleads} />}
                     />
                     <Route path="/events" element={<Events leads={leads} />} />
+                    {/* <Route path="/event" element={<ComingSoon/>}/> */}
                     <Route path="/lead" element={<LeadPage />} />
                     <Route path="/register" element={<Form />} />
                     <Route path="/contact" element={<Empty />} />

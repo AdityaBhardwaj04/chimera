@@ -63,9 +63,9 @@ const Contact = () => {
                         <p className="text-[18px] lg:text-[22px] font-medium">
                             SOCIAL MEDIA
                         </p>
-                        <div className="flex cursor-pointer">
+                        <div className="flex cursor-pointer items-center">
                             {/* <img src={facebook} alt='facebook'/> */}
-                            <FaFacebook />
+                            <FaFacebook className="pl-1"/>
                             <a
                                 href="https://www.facebook.com/kimayamedical?mibextid=ZbWKwL"
                                 target="_blank"
@@ -75,7 +75,7 @@ const Contact = () => {
                                 Facebook
                             </a>
                         </div>
-                        <div className="flex cursor-pointer">
+                        <div className="flex cursor-pointer items-center">
                             {/* <img src={instagram} alt='instagram'/> */}
                             <FaInstagram />
                             <a
@@ -87,7 +87,7 @@ const Contact = () => {
                                 Instagram
                             </a>
                         </div>
-                        <div className="flex cursor-pointer">
+                        <div className="flex cursor-pointer items-center">
                             <FaTwitter />
                             <a
                                 href="https://x.com/Chimera_kiit?t=MIrt0KSxLz-K15v_Z3xDog&s=09"

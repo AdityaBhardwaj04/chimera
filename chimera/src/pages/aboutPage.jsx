@@ -14,7 +14,7 @@ function About() {
                         <img
                             src={founder}
                             alt="founder"
-                            className="shadow-inner mix-blend-multiply md:h-full md:w-screen lg:w-full"
+                            className="shadow-inner mix-blend-multiply md:h-full md:w-screen lg:w-[92%]"
                             loading="lazy"
                         />
                     </div>
@@ -264,33 +264,7 @@ function About() {
                             2018 by World Health Care Achievers.
                             <br /> • Selected as an Adverse Drug Reaction
                             Monitoring Centre by Govt of India in 2015.
-                            <br />
-                            •We have a special consultative status with the
-                            Economic and Social Council of the United Nations
-                            (ECOSOC), the highest degree of UN accreditation for
-                            a non-governmental organization, and Guide star
-                            India's champion degree-Platinum Certification for
-                            NGO Transparency (2016) since 2015.
-                            <br />
-                            •In the prestigious list of 189 top NGOs worldwide
-                            and the top 10 best NGOs in India published in 2019
-                            by NGO Advisor, a Geneva-based independent media
-                            organization.
-                            <br />
-                            •Programs and initiatives that are linked to and
-                            actively working to achieve the Sustainable
-                            Development Goals (SDGs) of the United Nations.
-                            <br />
-                            •Collaborations with a wide range of international
-                            organizations, including the US Federal Government,
-                            UNESCO, UNICEF, and UNEPA.
-                            <br />
-                            •Visited and lauded by dignitaries from 70 nations,
-                            including ambassadors and chiefs of state.
-                            <br />
-                            •15 Nobel Prize winners have resided at the
-                            Institute.
-                            <br />
+                            
                         </p>
                     </div>
                 </div>
@@ -585,31 +559,6 @@ function About() {
                             <br /> • Selected as an Adverse Drug Reaction
                             Monitoring Centre by Govt of India in 2015.
                             <br />
-                            •We have a special consultative status with the
-                            Economic and Social Council of the United Nations
-                            (ECOSOC), the highest degree of UN accreditation for
-                            a non-governmental organization, and Guide star
-                            India's champion degree-Platinum Certification for
-                            NGO Transparency (2016) since 2015.
-                            <br />
-                            •In the prestigious list of 189 top NGOs worldwide
-                            and the top 10 best NGOs in India published in 2019
-                            by NGO Advisor, a Geneva-based independent media
-                            organization.
-                            <br />
-                            •Programs and initiatives that are linked to and
-                            actively working to achieve the Sustainable
-                            Development Goals (SDGs) of the United Nations.
-                            <br />
-                            •Collaborations with a wide range of international
-                            organizations, including the US Federal Government,
-                            UNESCO, UNICEF, and UNEPA.
-                            <br />
-                            •Visited and lauded by dignitaries from 70 nations,
-                            including ambassadors and chiefs of state.
-                            <br />
-                            •15 Nobel Prize winners have resided at the
-                            Institute.
                         </p>
                     </div>
                 </div>

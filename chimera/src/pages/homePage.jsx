@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
-import chimeraLogo from "../images/chimera_icon.svg";
+import chimeraLogo from "../images/Group 1.svg";
 import cursor from "../images/cursor1.png";
 import CountdownTimer from "../components/countdown";
 import Counter from "../components/counter";
@@ -25,15 +25,20 @@ const HomePage = () => {
                         <div className="relative xl:p-0 w-full 2xl:w-[1422px] h-[480px] mx-auto bg-transparent md:mt-[40px]">
                             <div className="absolute flex md:flex-row flex-col justify-between gap-4 items-center top-0 bottom-0 w-full h-full">
                                 <div className="md:self-start w-[230px] md:w-[40%] lg:w-[50%] h-full flex flex-col justify-center gap-8 md:gap-8 items-center">
-                                    <div className="relative lg:w-[70%] mt-2 md:mt-0 ml-[0px] md:ml-[15px] animate-zoom-in-out">
+                                    <div className="relative lg:w-[60%] mt-2 md:mt-0 ml-[0px] md:ml-[15px] animate-zoom-in-out">
                                         <img
                                             src={chimeraLogo}
                                             alt=""
                                             className="self-start "
                                         />
                                     </div>
+                                    {/* <div className="">
+                                        <h1 className="justify-center text-xl font-bold md:text-2xl lg:text-6xl text-logo-color leading-3 font-AllRounder text-[#2A404A] mt-5">
+                                            CHIMERA 
+                                        </h1>
+                                    </div> */}
                                     <div className="">
-                                        <h1 className="justify-center text-xl font-bold md:text-2xl lg:text-4xl text-logo-color leading-3 font-AllRounder text-[#2A404A] -mt-10">
+                                        <h1 className="justify-center text-xl font-bold md:text-2xl lg:text-4xl text-logo-color leading-3 font-AllRounder text-[#2A404A]">
                                             20-21 Jan, 2024
                                         </h1>
                                     </div>
@@ -53,25 +58,27 @@ const HomePage = () => {
                                 <div className="w-full md:w-[60%] lg:w-[50%] flex items-center text-justify justify-center h-full ">
                                     <div className="h-full lg:translate-y-[-30px] md:mr-8 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-gradient-custom shadow-custom backdrop-blur-custom border-solid border-[0.795px] border-[#7F7F7F] ">
                                         <div className="text-white font-semibold text-xs sm:text-sm xl:text-lg md:leading-[27px] tracking-wide md:tracking-widest font-Inter var">
-                                            CHIMERA, aims to provide a platform
-                                            for the congregation of the entire
-                                            medical fraternity of eastern India
-                                            along with other major Universities
-                                            embracing the whole country under
-                                            one roof. It is beyond the
-                                            dimensions of just an event it is a
-                                            stage where idea meets reality. The
-                                            event theme "Dissecting Truth from
-                                            Rumor" encompasses a profound
-                                            exploration into the intricate
-                                            landscape of information
-                                            dissemination and its impact on
-                                            society. In an era dominated by the
-                                            swift flow of information across
-                                            various media platforms, the
-                                            veracity of facts often gets tangled
-                                            within a web of rumors,
-                                            misinformation, and disinformation.
+                                            CHIMERA is working on bringing
+                                            together innovative brains from the
+                                            Medical & Non-medical community of
+                                            India. We want to encourage
+                                            collaboration among professionals
+                                            from many sectors and make
+                                            exchanging ideas simple and
+                                            pleasant. Our vision is to become a
+                                            thriving hub for multidisciplinary
+                                            collaboration, where creative
+                                            individuals may collaborate &
+                                            participate in various events and
+                                            activities. By establishing a
+                                            dynamic platform, institutions can
+                                            unite, share knowledge, and create
+                                            innovative and engaging initiatives.
+                                            CHIMERA is working to become a
+                                            catalyst for amazing things.It is
+                                            beyond the dimensions of just an
+                                            event it is a stage where idea meets
+                                            reality. 
                                         </div>
                                     </div>
                                 </div>
