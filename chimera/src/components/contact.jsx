@@ -52,12 +52,23 @@ const Contact = () => {
                             EMAIL
                         </p>
                         <a
+                            href="mailto: chimera2k24@gmail.com"
+                            className="cursor-pointer"
+                        >
+                            chimera2k24@gmail.com
+                        </a>
+                        <a
                             href="mailto: kritarth.info@kiit.ac.in"
                             className="cursor-pointer"
                         >
                             kimayamedicos@gmail.com
                         </a>
-                        {/* <a href="mailto: khwaab.kiit@gmail.com" className='cursor-pointer'>PlaceHolder</a> */}
+                        <a
+                            href="mailto: 21052137@kiit.ac.in"
+                            className="cursor-pointer"
+                        >
+                            21052137@kiit.ac.in
+                        </a>
                     </div>
                     <div className="flex flex-col md:items-center xl:items-start">
                         <p className="text-[18px] lg:text-[22px] font-medium">
@@ -65,7 +76,7 @@ const Contact = () => {
                         </p>
                         <div className="flex cursor-pointer items-center">
                             {/* <img src={facebook} alt='facebook'/> */}
-                            <FaFacebook className="pl-1"/>
+                            <FaFacebook className="pl-1" />
                             <a
                                 href="https://www.facebook.com/kimayamedical?mibextid=ZbWKwL"
                                 target="_blank"

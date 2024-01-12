@@ -10,7 +10,7 @@ export const leadData = [
     {
         id: 1,
         image: "Emmanuel Anthony Francis.jpg",
-        igLink: "https://www.instagram.com/dutta.sreemoyee?igsh=cWZvbGNsZG1vMzBn",
+        igLink: "https://www.instagram.com/lilemmu301?igsh=N3p4M3FpMG00d2tk",
         linkedinLink: "google.com",
         name: "Emmanuel Anthony Francis",
         position: "Coordinator",
@@ -18,7 +18,7 @@ export const leadData = [
     {
         id: 2,
         image: "Haldar.jpg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/enjoywithhengla?igsh=MXRkdHVzczlyMGd5NQ",
         linkedinLink: "google.com",
         name: "Swarnak haldar",
         position: "Assistant Coordinator",
@@ -26,7 +26,7 @@ export const leadData = [
     {
         id: 3,
         image: "Argha Dey.jpg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/aj_argha?igsh=amcyOXMwYzliZWJw",
         linkedinLink: "google.com",
         name: "Argha Dey",
         position: "Assistant Coordinator",
@@ -34,7 +34,7 @@ export const leadData = [
     {
         id: 4,
         image: "ANIKET_MONDAL.jpg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/dr.co_cktail?igsh=Ym5xOHJpejVldjls",
         linkedinLink: "google.com",
         name: "Aniket Mandal",
         position: "Assistant Coordinator",
@@ -42,7 +42,7 @@ export const leadData = [
     {
         id: 5,
         image: "Amol Kshitij.JPG",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/amol_kshitij/",
         linkedinLink: "google.com",
         name: "Amol Kshitij",
         position: "Inaugral & Logistics Head",
@@ -50,7 +50,7 @@ export const leadData = [
     {
         id: 6,
         image: "SARVAGYA.jpg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/sarvagya_singh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
         linkedinLink: "google.com",
         name: "Sarvagya Singh",
         position: "Marketing & PR Head",
@@ -58,7 +58,7 @@ export const leadData = [
     {
         id: 7,
         image: "Prabir Nayak.jpeg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/prabir_2011?igsh=MWJyd3RkaTJheDk4Zg==",
         linkedinLink: "google.com",
         name: "Prabir Nayak",
         position: "Operations Head",
@@ -67,7 +67,7 @@ export const leadData = [
     {
         id: 8,
         image: "Aditya Bhardwaj.jpg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/lonepair.4?igsh=MXYxb2RoNzByYXh1Yw==",
         linkedinLink: "google.com",
         name: "Aditya Bhardwaj",
         position: "Web Dev Head",
@@ -83,7 +83,7 @@ export const leadData = [
     {
         id: 9,
         image: "Bramhajeet Behera.jpg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/bramhajeetbehera?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
         linkedinLink: "google.com",
         name: "Bramhajeet Behera",
         position: "Sponsorship Lead",
@@ -91,7 +91,7 @@ export const leadData = [
     {
         id: 10,
         image: "Aryan Tripathi.jpg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/aryann_.tripathi?igsh=NDN5Y2hwNXN3bW83",
         linkedinLink: "google.com",
         name: "Aryan Tripathi",
         position: "Online Marketing Lead",
@@ -108,7 +108,7 @@ export const leadData = [
     {
         id: 11,
         image: "Dipayan Saha.jpg",
-        igLink: "google.com",
+        igLink: "https://www.instagram.com/._diipaayyong._?igsh=aGo3NXkxOGlwdHQ2",
         linkedinLink: "google.com",
         name: "Dipayan Saha",
         position: "Offline Maketing Lead",

@@ -32,13 +32,13 @@ const HomePage = () => {
                                             className="self-start "
                                         />
                                     </div>
-                                    {/* <div className="">
-                                        <h1 className="justify-center text-xl font-bold md:text-2xl lg:text-6xl text-logo-color leading-3 font-AllRounder text-[#2A404A] mt-5">
-                                            CHIMERA 
-                                        </h1>
-                                    </div> */}
                                     <div className="">
-                                        <h1 className="justify-center text-xl font-bold md:text-2xl lg:text-4xl text-logo-color leading-3 font-AllRounder text-[#2A404A]">
+                                        <h1 className="justify-center text-sm font-bold md:text-base lg:text-xl text-logo-color leading-3 font-AllRounder text-[#2A404A]">
+                                            Dissecting Truth from Rumours
+                                        </h1>
+                                    </div>
+                                    <div className="">
+                                        <h1 className="justify-center text-xl font-bold md:text-2xl lg:text-3xl text-logo-color leading-3 font-AllRounder text-[#2A404A]">
                                             20-21 Jan, 2024
                                         </h1>
                                     </div>
