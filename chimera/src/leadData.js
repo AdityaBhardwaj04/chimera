@@ -1,18 +1,18 @@
 export const leadData = [
     {
         id: 0,
-        image: "SREEMOYEE DUTTA.jpeg",
-        igLink: "https://www.instagram.com/dutta.sreemoyee?igsh=cWZvbGNsZG1vMzBn",
-        linkedinLink: "google.com",
-        name: "Sreemoyee Dutta",
-        position: "Coordinator",
-    },
-    {
-        id: 1,
         image: "Emmanuel Anthony Francis.jpg",
         igLink: "https://www.instagram.com/lilemmu301?igsh=N3p4M3FpMG00d2tk",
         linkedinLink: "google.com",
         name: "Emmanuel Anthony Francis",
+        position: "Coordinator",
+    },
+    {
+        id: 1,
+        image: "SREEMOYEE DUTTA.jpeg",
+        igLink: "https://www.instagram.com/dutta.sreemoyee?igsh=cWZvbGNsZG1vMzBn",
+        linkedinLink: "google.com",
+        name: "Sreemoyee Dutta",
         position: "Coordinator",
     },
     {
