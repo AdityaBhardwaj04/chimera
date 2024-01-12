@@ -48,8 +48,8 @@ export default function App() {
                     <Route path="/events" element={<Events leads={leads} />} /> */}
                     <Route path="/event" element={<ComingSoon />} />
                     <Route path="/lead" element={<LeadPage />} />
-                    <Route path="/register" element={<Form />} />
-                    {/* <Route path="/register" element={<ComingSoon />} /> */}
+                    {/* <Route path="/register" element={<Form />} /> */}
+                    <Route path="/register" element={<ComingSoon />} />
                     <Route path="/contact" element={<Empty />} />
                     <Route path="/comingsoon" element={<ComingSoon />} />
                 </Routes>
