@@ -53,7 +53,7 @@ const HomePage = () => {
                                 <div className="w-full md:w-[60%] lg:w-[50%] flex items-center text-justify justify-center h-full ">
                                     <div className="h-full lg:translate-y-[-30px] md:mr-8 group mb-1 md:mb-0 md:px-7 px-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-gradient-custom shadow-custom backdrop-blur-custom border-solid border-[0.795px] border-[#7F7F7F] py-5">
                                         <div className="text-white font-semibold text-xs sm:text-sm xl:text-lg md:leading-[27px] tracking-wide md:tracking-widest font-Inter var">
-                                            CHIMERA is working on bringing
+                                            CHIMERA 5.0 is working on bringing
                                             together innovative brains from the
                                             Medical & Non-medical community of
                                             India. We want to encourage
@@ -69,7 +69,7 @@ const HomePage = () => {
                                             dynamic platform, institutions can
                                             unite, share knowledge, and create
                                             innovative and engaging initiatives.
-                                            CHIMERA is working to become a
+                                            CHIMERA 5.0 is working to become a
                                             catalyst for amazing things.It is
                                             beyond the dimensions of just an
                                             event it is a stage where idea meets

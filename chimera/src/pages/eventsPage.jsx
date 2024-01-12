@@ -71,7 +71,7 @@ const About = (props) => {
                                     <div className="text-white text-justify font-semibold text-xs sm:text-sm xl:text-lg md:leading-[27px] tracking-wide md:tracking-widest font-Mulish">
                                         Where knowledge meets rejuvenation, and
                                         talent seeks recognition, respond to
-                                        beckoning Chimera. The previous edition
+                                        beckoning Chimera 5.0. The previous edition
                                         of Chimera, which took place from the
                                         16th to the 17th of November, 2019, saw
                                         humongous participation, primarily from
