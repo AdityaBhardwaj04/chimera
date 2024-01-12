@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/navbar";
 import HomePage from "./pages/homePage";
 import Contact from "./components/contact";
@@ -35,6 +36,7 @@ export default function App() {
   const [leads, setleads] = useState(0);
     return (
         <>
+            <Analytics/>
             <BrowserRouter>
                 <ScrollItToTop />
                 <Navbar />

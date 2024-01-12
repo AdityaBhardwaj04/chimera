@@ -41,20 +41,20 @@ const Lead = () => {
                                     />
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     to={item.linkedInLink}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    {/* <img
+                                    <img
                                         src={linkedin}
                                         alt="logo"
                                         className="rounded-full w-6 h-6 object-cover"
                                         loading="lazy"
-                                    /> */}
+                                    />
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 ))}
@@ -93,20 +93,20 @@ const Lead = () => {
                                     />
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     to={item.linkedInLink}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    {/* <img
+                                    <img
                                         src={linkedin}
                                         alt="logo"
                                         className="rounded-full w-6 h-6 object-cover"
                                         loading="lazy"
-                                    /> */}
+                                    />
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 ))}
@@ -185,20 +185,20 @@ const Lead = () => {
                                     />
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     to={item.linkedInLink}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    {/* <img
+                                    <img
                                         src={linkedin}
                                         alt="logo"
                                         className="rounded-full w-6 h-6 object-cover"
                                         loading="lazy"
-                                    /> */}
+                                    />
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 ))}
@@ -232,20 +232,20 @@ const Lead = () => {
                                     />
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     to={item.linkedInLink}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    {/* <img
+                                    <img
                                         src={linkedin}
                                         alt="logo"
                                         className="rounded-full w-6 h-6 object-cover"
                                         loading="lazy"
-                                    /> */}
+                                    />
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 ))}
