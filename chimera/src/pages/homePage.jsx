@@ -33,11 +33,6 @@ const HomePage = () => {
                                         />
                                     </div>
                                     <div className="">
-                                        <h1 className="justify-center text-sm font-bold md:text-base lg:text-xl text-logo-color leading-3 font-AllRounder text-[#2A404A]">
-                                            Dissecting Truth from Rumours
-                                        </h1>
-                                    </div>
-                                    <div className="">
                                         <h1 className="justify-center text-xl font-bold md:text-2xl lg:text-3xl text-logo-color leading-3 font-AllRounder text-[#2A404A]">
                                             20-21 Jan, 2024
                                         </h1>
