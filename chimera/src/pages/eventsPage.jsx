@@ -89,7 +89,7 @@ const About = (props) => {
                         </div>
                     </div>
                     <div className="p-3 xl:p-0 max-w-[1162px] w-full mx-auto md:mt-12">
-                        <div className="grid grid-cols-2 gap-12 md:gap-[100px] md:mb-12">
+                        <div className="grid md:grid-cols-2 gap-12 md:gap-[100px] md:mb-12">
                             {event.slice(0, 4).map((abouts, i) => (
                                 <div
                                     key={i}
@@ -112,7 +112,7 @@ const About = (props) => {
                                 <img
                                     src={event[4].url}
                                     alt=""
-                                    className="w-1/2 h-auto rounded-xl hover:scale-105 translate-3 duration-200 object-cover"
+                                    className="w-full md:w-1/2 h-auto rounded-xl hover:scale-105 translate-3 duration-200 object-cover mt-2"
                                 />
                             </div>
                         )}
