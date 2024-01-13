@@ -45,7 +45,7 @@ export const leadData = [
         igLink: "https://www.instagram.com/amol_kshitij/",
         linkedinLink: "google.com",
         name: "Amol Kshitij",
-        position: "Inaugral & Logistics Head",
+        position: "Inaugural & Logistics Head",
     },
     {
         id: 6,
