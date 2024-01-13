@@ -44,15 +44,15 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/about" element={<About />} />
-                    {/* <Route
+                    <Route
                         path="/event"
                         element={<Event setleads={setleads} />}
                     />
-                    <Route path="/events" element={<Events leads={leads} />} /> */}
-                    <Route path="/event" element={<ComingSoon />} />
+                    <Route path="/events" element={<Events leads={leads} />} />
+                    {/* <Route path="/event" element={<ComingSoon />} /> */}
                     <Route path="/lead" element={<LeadPage />} />
-                    {/* <Route path="/register" element={<Form />} /> */}
-                    <Route path="/register" element={<ComingSoon />} />
+                    <Route path="/register" element={<Form />} />
+                    {/* <Route path="/register" element={<ComingSoon />} /> */}
                     <Route path="/contact" element={<Empty />} />
                     <Route path="/comingsoon" element={<ComingSoon />} />
                 </Routes>

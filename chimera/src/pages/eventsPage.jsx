@@ -71,41 +71,51 @@ const About = (props) => {
                                     <div className="text-white text-justify font-semibold text-xs sm:text-sm xl:text-lg md:leading-[27px] tracking-wide md:tracking-widest font-Mulish">
                                         Where knowledge meets rejuvenation, and
                                         talent seeks recognition, respond to
-                                        beckoning Chimera 5.0. The previous edition
-                                        of Chimera, which took place from the
-                                        16th to the 17th of November, 2019, saw
-                                        humongous participation, primarily from
-                                        the medical fraternity and various
-                                        fraternities of other universities,
-                                        colleges and schools making it a great
-                                        success. The huge success of the event
-                                        just acted as a catalyst for us to
-                                        organize it with great zeal for its
-                                        Fifth edition, this year on 20th & 21st
-                                        January 2024.
+                                        beckoning Chimera 5.0. The previous
+                                        edition of Chimera, which took place
+                                        from the 16th to the 17th of November,
+                                        2019, saw humongous participation,
+                                        primarily from the medical fraternity
+                                        and various fraternities of other
+                                        universities, colleges and schools
+                                        making it a great success. The huge
+                                        success of the event just acted as a
+                                        catalyst for us to organize it with
+                                        great zeal for its Fifth edition, this
+                                        year on 20th & 21st January 2024.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="p-3 xl:p-0 max-w-[1162px] w-full mx-auto md:mt-12">
-                        <div className="w-full grid lg:grid-cols-2 grid-cols-1 h-full gap-12 md:gap-[100px]">
-                            {event.map((abouts, i) => {
-                                return (
-                                    <div
-                                        key={i}
-                                        onClick={handleClick(abouts.id)}
-                                        className=" cursor-pointer rounded-xl "
-                                    >
-                                        <img
-                                            src={abouts.url}
-                                            alt=""
-                                            className="w-full h-full rounded-xl hover:scale-105 translate-3 duration-200 object-cover"
-                                        />
-                                    </div>
-                                );
-                            })}
+                        <div className="grid grid-cols-2 gap-12 md:gap-[100px] md:mb-12">
+                            {event.slice(0, 4).map((abouts, i) => (
+                                <div
+                                    key={i}
+                                    onClick={handleClick(abouts.id)}
+                                    className="cursor-pointer rounded-xl"
+                                >
+                                    <img
+                                        src={abouts.url}
+                                        alt=""
+                                        className="w-full h-full rounded-xl hover:scale-105 translate-3 duration-200 object-cover"
+                                    />
+                                </div>
+                            ))}
                         </div>
+                        {event[4] && (
+                            <div
+                                onClick={handleClick(event[4].id)}
+                                className="flex items-center justify-center cursor-pointer rounded-xl mx-auto"
+                            >
+                                <img
+                                    src={event[4].url}
+                                    alt=""
+                                    className="w-1/2 h-auto rounded-xl hover:scale-105 translate-3 duration-200 object-cover"
+                                />
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
