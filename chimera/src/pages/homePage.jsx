@@ -6,6 +6,7 @@ import CountdownTimer from "../components/countdown";
 import Counter from "../components/counter";
 import watermark from "../images/prizePoolWatermark.svg";
 import flairs from "../images/hero.svg";
+import Modal from "../components/popUp";
 
 const targetDate = new Date("2024-01-21T00:00:00");
 const HomePage = () => {
@@ -143,6 +144,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
+            <Modal/>
         </div>
     );
 };
