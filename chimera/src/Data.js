@@ -19,7 +19,7 @@ For Mono act -- strictly only 1 performer and 1 for background support.
 5. Use of fire , water etc. Or any indecency or any politically controversial remark will lead to disqualification.
 6. The decision of judges will be considered final.  Any act of disagreement will lead to disqualification.
 7. In case of a mono act, lights and sound handlers will not be considered as participants or a part of act. 
-8.Every member of the teams must be registered for CHIMERA 2023 .
+8.Every member of the teams must be registered for CHIMERA 2024 .
 9. Topics for  nukkad , theatre or mono act should be from the above mentioned themes.  You can choose any form of genre ( comedy , romance , soulful etc. ) for your act .
 10.  Points will be deducted in case of exceeding the time limit .`,
     },
