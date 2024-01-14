@@ -144,7 +144,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <Modal/>
+            {/* <Modal/> */}
         </div>
     );
 };
