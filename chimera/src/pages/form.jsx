@@ -3,7 +3,7 @@ import PerfectScrollbar from "perfect-scrollbar";
 import "perfect-scrollbar/css/perfect-scrollbar.css";
 
 // Replace this URL with the URL of your new form
-const FORM_URL = "https://forms.office.com/r/8rtgu8QASc";
+const FORM_URL = "https://forms.office.com/r/bCAyi1W99t";
 
 const Form = () => {
     const iframeRef = useRef(null);
