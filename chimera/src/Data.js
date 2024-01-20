@@ -68,7 +68,7 @@ Criteria for Judgement:
 ● Creativity and Presentation
 ● Overall clarity and impact
 ● Versatility and Beat sense
-● Coordination (in case of duet and group dance)
+● Coordination (in case of group dance)
 RULES FOR MUSIC PRELIMS
 1. Solo Singing Contestant will have 2+1 minutes to perform
 2. Only one Accompanist or Karaoke will allowed for Auditions.
