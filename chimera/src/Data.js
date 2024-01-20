@@ -51,7 +51,7 @@ Criteria for Judgement:
 ● Creativity and Presentation
 ● Overall clarity and impact
 ● Versatility and Beat sense
-● Coordination (in case of duet and group dance)
+● Coordination (in case of group dance)
 Rules for Dance Finals-
 Categories: Solo and Group
 ● Time limit : 2+1 minutes (Solo) (Including entry and exit)
