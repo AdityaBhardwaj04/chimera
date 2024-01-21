@@ -6,6 +6,9 @@ import CountdownTimer from "../components/countdown";
 import Counter from "../components/counter";
 import watermark from "../images/prizePoolWatermark.svg";
 import flairs from "../images/hero.svg";
+import theArt from "../images/theArt 1.svg";
+import biggies from "../images/biggies 1.svg";
+import inspiria from "../images/Diim Liite Logo-1.png";
 import Modal from "../components/popUp";
 
 const targetDate = new Date("2024-01-21T00:00:00");
@@ -143,8 +146,71 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+                <div className="max-w-[1162px] w-11/12 p-3 mx-auto flex flex-col justify-center items-center">
+                    <div className="text-center text-black font-Poppins text-xl md:text-3xl lg:text-4xl font-semibold mt-11 mb-11">
+                        Our Sponsors
+                    </div>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
+                        <div className="">
+                            <div className="rounded-[30px] md:rounded-[50px] border-4  border-x-purple-950 object-scale-down">
+                                <img
+                                    src={theArt}
+                                    alt=""
+                                    className="rounded-[30px] md:rounded-[50px] "
+                                />
+                            </div>
+                            {/* <p className="text-center text-white  text-base md:text-lg lg:text-xl font-medium mt-2">
+                                            E-SPORTS
+                                        </p>
+                                        <p className="text-center text-white  text-base md:text-lg lg:text-xl font-medium ">
+                                            PARTNER
+                                        </p> */}
+                        </div>
+
+                        <div>
+                            <div className="rounded-[30px]  md:rounded-[50px] border-4 border-x-purple-950">
+                                <img
+                                    src={biggies}
+                                    alt=""
+                                    className="rounded-[30px] md:rounded-[50px]"
+                                />
+                            </div>
+                            {/* <p className="text-center text-white  text-base md:text-lg lg:text-xl font-medium mt-2">
+                                SNACKS
+                            </p>
+                            <p className="text-center text-white  text-base md:text-lg lg:text-xl font-medium ">
+                                PARTNER
+                            </p> */}
+                        </div>
+
+                        {/* <div>
+        <div className='rounded-[30px]  md:rounded-[50px] border-4 border-x-purple-950'>
+          <img src={echoes} alt="" className=''/>
+        </div>
+        <p className='text-center text-white  text-base md:text-lg lg:text-xl font-medium mt-2'>MERCHANDISE</p>
+        <p className='text-center text-white  text-base md:text-lg lg:text-xl font-medium '>PARTNER</p>
+        
+        </div> */}
+
+                        <div>
+                            <div className="rounded-[30px]  md:rounded-[50px] border-4 border-x-purple-950">
+                                <img
+                                    src={inspiria}
+                                    alt=""
+                                    className="rounded-[30px] md:rounded-[50px]"
+                                />
+                            </div>
+                            {/* <p className="text-center text-white  text-base md:text-lg lg:text-xl font-medium mt-2">
+                                MUNCHIES
+                            </p>
+                            <p className="text-center text-white  text-base md:text-lg lg:text-xl font-medium ">
+                                PARTNER
+                            </p> */}
+                        </div>
+                    </div>
+                </div>
             </div>
-            {/* <Modal/> */}
+            <Modal/>
         </div>
     );
 };

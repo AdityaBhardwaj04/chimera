@@ -1,5 +1,6 @@
 import { useState } from "react";
-import flashMob from "../images/Flashmob.png";
+// import flashMob from "../images/Flashmob.png";
+import star from "../images/comedyNight.jpg";
 
 export default function Modal() {
     const [showModal, setShowModal] = useState(true);
@@ -19,7 +20,7 @@ export default function Modal() {
                             </button>
                         </div>
                         <div className="p-4">
-                            <img src={flashMob} alt="Flash Mob" className="w-[100vw] h-auto"/>
+                            <img src={star} alt="Flash Mob" className="w-[100vw] h-auto"/>
                         </div>
                     </div>
                 </div>
